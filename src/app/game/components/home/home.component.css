@@ -1,0 +1,8 @@
+.start-btn {
+  width: 100%;
+  padding: var(--default-padding);
+  border-radius: var(--default-radius);
+  background-color: rgb(46, 175, 121);
+  cursor: pointer;
+  margin: 5px 0px;
+}

@@ -1,0 +1,16 @@
+<div>
+  <h1>{{ game().current.title }}</h1>
+
+  <div class="game-info">
+    <div>Remaining Questions ❓: {{ game().remaining.length }}</div>
+    <div>Remaining Lives ❤️: {{ game().lives }}</div>
+  </div>
+
+  <div class="option-list">
+    <ul>
+      @for (option of game().current.options; track $index) {
+      <li (click)="play($index)" class="option">{{ option }}</li>
+      }
+    </ul>
+  </div>
+</div>

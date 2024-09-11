@@ -1,0 +1,20 @@
+.game-info {
+  margin: 5px 0px;
+}
+
+.option-list > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  width: 100%;
+  background-color: rgb(199, 203, 206);
+  margin: 5px 0px;
+  padding: var(--default-padding);
+  cursor: pointer;
+  border-radius: var(--default-radius);
+}

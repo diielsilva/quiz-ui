@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --default-radius: 10px;
+  --default-padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html {
+  padding: var(--default-padding);
+  height: 100dvh;
+}
+
+body {
+  height: 80dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(65, 73, 85);
+  font-family: "SUSE", sans-serif;
+}
+
+h1 {
+  margin: 5px 0px;
+}
